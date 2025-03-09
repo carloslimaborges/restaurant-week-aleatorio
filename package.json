@@ -24,6 +24,7 @@
   "devDependencies": {
     "@types/node": "^20.0.0",
     "@types/node-fetch": "^2.6.4",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.0"
   },

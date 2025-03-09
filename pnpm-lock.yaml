@@ -21,6 +21,9 @@ importers:
       '@types/node-fetch':
         specifier: ^2.6.4
         version: 2.6.12
+      prettier:
+        specifier: ^3.5.3
+        version: 3.5.3
       ts-node:
         specifier: ^10.9.1
         version: 10.9.2(@types/node@20.17.24)(typescript@5.8.2)
@@ -174,6 +177,11 @@ packages:
     peerDependenciesMeta:
       encoding:
         optional: true
+
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
@@ -345,6 +353,8 @@ snapshots:
   node-fetch@2.7.0:
     dependencies:
       whatwg-url: 5.0.0
+
+  prettier@3.5.3: {}
 
   tr46@0.0.3: {}
 
