@@ -97,7 +97,7 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para d
 
 ## 👨‍💻 Autor
 
-Seu Nome - [@carloslimaborges](https://github.com/carloslimaborges)
+Carlos Borges - [@carloslimaborges](https://github.com/carloslimaborges)
 
 ---
 
