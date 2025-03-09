@@ -1,0 +1,31 @@
+{
+  "name": "restaurant-week-aleatorio",
+  "version": "1.0.0",
+  "description": "Seletor aleatório de restaurantes para a Restaurant Week",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restaurant-week",
+    "food",
+    "cli",
+    "random",
+    "selector"
+  ],
+  "author": "Seu Nome <seu-email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
